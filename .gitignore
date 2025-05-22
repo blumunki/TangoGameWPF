@@ -1,0 +1,77 @@
+# Visual Studio files
+.vs/
+*.suo
+*.user
+*.config
+*.obj
+*.pdb
+*.bak
+*.ncb
+*.aps
+*.bsc
+*.sbr
+*.res
+*.nupkg
+*.trx
+*.log
+*.zip
+*.rar
+*.exe
+*.dll
+*.mdb
+*.ldf
+*.mdf
+*.pubxml
+*.userprefs
+*.dbmdl
+*.dacpac
+*.dbschema
+*.npm
+*.tsbuildinfo
+*.js.map
+*.css.map
+*.env
+.env.local
+.env.development
+.env.test
+.env.production
+.vscode/
+
+# Build artifacts
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+bin/
+obj/
+publish/
+dist/
+
+# Visual Studio Code specific files
+.vscode/
+
+# NuGet packages
+packages/
+*.nupkg
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+*~
+*.swp
+
+# Rider specific files
+.idea/
+
+# Dotnet CLI files
+.dotnet/
+.templateengine/
+
+# Other common files
+.DS_Store
+Thumbs.db
+
+# Solution specific files
+*.sln.docstates
