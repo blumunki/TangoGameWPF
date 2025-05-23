@@ -11,13 +11,12 @@ namespace TangoGame
 
         public BorderSymbol(string symbol, int row, int col, bool isHorizontal)
         {
-            Symbol = symbol; // Initialize Symbol from constructor parameter - FIX for Warning
+            Symbol = symbol; 
             Row = row;
             Col = col;
             IsHorizontal = isHorizontal;
         }
 
-        //Override Equals and GetHashCode for List.Contains and other comparisons to work correctly
         public override bool Equals(object? obj)
         {
             return obj is BorderSymbol symbol &&
